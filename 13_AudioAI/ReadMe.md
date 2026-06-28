@@ -1,0 +1,9 @@
+# AudioAI
+├── AudioToNumpy
+├── FFT
+├── Spectrogram
+├── BeatDetection
+├── TempoDetection
+├── SpeechRecognition
+├── MusicGeneration
+├── VoiceCloning
