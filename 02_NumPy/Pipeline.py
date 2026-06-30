@@ -1,11 +1,12 @@
 """
-04_numpy_ultimate_pipeline.py
+numpy_ultimate_pipeline.py
 Focus: Fancy indexing, Dimension adjustment, Concatenation, and Vectorized Thresholding.
 """
 import numpy as np
 
 # 1. Initialize random generator for reproducibility
 rng = np.random.default_rng(seed=2026)
+print("Random Generated np.random.dfault-rng(seed=2026): ", rng) #pcg64
 
 print("--- STEP 1: CONCATENATION & STACKING ---")
 # Simulating two independent data source streams (Features for 2 samples each)
