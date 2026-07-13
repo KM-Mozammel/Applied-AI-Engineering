@@ -160,3 +160,15 @@ Important for implementing algorithms efficiently in code.
 # Information Theory
 The most abstract, but critical for modern AI.
 Entropy, KL divergence, and cross-entropy loss connect directly to deep learning and LLMs.
+
+# 01_Introduction
+# 02_WhyThisConceptExistsInRealtionTohistory
+# 03_RealLifeIntuition
+# 04_Definition
+# 05_Formula
+# 06_Derivation (How the formula comes)
+# 07_InternalWorking / Visualization
+# 08_Examples
+# 09_CommonMistakes
+# 10_Exercises
+# 11_AIUsage (Machine Learning / AI)

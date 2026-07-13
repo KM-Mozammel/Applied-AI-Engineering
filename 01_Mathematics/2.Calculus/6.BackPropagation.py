@@ -1,1 +1,0 @@
-# Backpropagation : Neural Network কীভাবে শিখবে?

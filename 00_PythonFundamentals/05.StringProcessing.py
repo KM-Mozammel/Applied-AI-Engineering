@@ -2,25 +2,19 @@
 ============================================================
 01_Introduction
 ============================================================
-String Processing বলতে String (Text) নিয়ে কাজ করাকে বোঝায়। 
-যেমন, "Hello World" থেকে,
-• শব্দ বের করা
-• ছোট হাতের লেখা বড় হাতের করা
-• বড় হাতের লেখা ছোট হাতের করা
-• নির্দিষ্ট শব্দ খুঁজে বের করা
-• শব্দ পরিবর্তন করা
-• Text পরিষ্কার করা
-• Sentence ভাঙা
-• Sentence জোড়া লাগানো
+String Processing বলতে String (Text) নিয়ে কাজ করাকে বোঝায়। যেমন, "Hello World" থেকে,
+• শব্দ বের করা, • ছোট হাতের লেখা বড় হাতের করা, • বড় হাতের লেখা ছোট হাতের করা, • নির্দিষ্ট শব্দ খুঁজে বের করা
+• শব্দ পরিবর্তন করা, • Text পরিষ্কার করা, • Sentence ভাঙা, • Sentence জোড়া লাগানো
 
-সবই String Processing। Python-এ প্রায় প্রতিটি Application-এ String Processing প্রয়োজন হয়।Examples: Search Engine, Chat Application, Compiler, Web Development, AI, Data Science, NLP, Cyber Security সব জায়গাতেই String Processing ব্যবহৃত হয়।
+সবই String Processing। Python-এ প্রায় প্রতিটি Application-এ String Processing প্রয়োজন হয়। Examples: Search Engine, Chat Application, Compiler, Web Development, AI, Data Science, NLP, Cyber Security সব জায়গাতেই String Processing ব্যবহৃত হয়।
 """
 # ============================================================
 # 02_WhyStringProcessingExists
 # ============================================================
 """
 Computer মানুষের ভাষা বুঝে না। Computer শুধু Binary বোঝে। তাই মানুষের লেখা Text কে বিভিন্নভাবে Process করতে হয়।
-Example: Input - "I love Python". কম্পিউটারকে হয়তো জানতে হবে,
+Example: Input - "I love Python". কম্পিউটারকে হয়তো জানতে হবে-
+
 • কয়টি শব্দ আছে?
 • Python শব্দটি আছে?
 • love কে like করা হবে?
@@ -111,7 +105,6 @@ print("find():")
 print(text.find("Program"))
 print(text.find("Java"))
 print()
-
 
 # ------------------------------------------------------------
 # startswith(): String কোন অংশ দিয়ে শুরু হয়েছে?

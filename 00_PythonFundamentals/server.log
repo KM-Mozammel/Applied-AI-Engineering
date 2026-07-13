@@ -1,0 +1,20 @@
+2026-07-11 09:00:01 INFO    Server started on port 5000
+2026-07-11 09:00:05 INFO    GET /index.html 200
+2026-07-11 09:00:12 INFO    POST /login 200 User=alice
+2026-07-11 09:01:03 WARNING Invalid password User=bob
+2026-07-11 09:01:10 INFO    POST /login 401 User=bob
+2026-07-11 09:01:55 INFO    GET /products 200
+2026-07-11 09:02:08 INFO    GET /products/15 200
+2026-07-11 09:02:40 ERROR   Database connection timeout
+2026-07-11 09:03:15 INFO    GET /cart 200
+2026-07-11 09:03:45 INFO    POST /checkout 200 User=alice
+2026-07-11 09:04:20 WARNING High CPU Usage: 85%
+2026-07-11 09:05:02 INFO    GET /orders 200
+2026-07-11 09:05:31 ERROR   Payment Gateway Unreachable
+2026-07-11 09:06:10 INFO    GET /products 200
+2026-07-11 09:06:45 INFO    POST /logout 200 User=alice
+2026-07-11 09:07:20 INFO    GET /admin 403
+2026-07-11 09:07:55 WARNING Unauthorized Access Attempt IP=192.168.1.15
+2026-07-11 09:08:30 INFO    GET /health 200
+2026-07-11 09:09:11 ERROR   File Not Found: /images/logo.png
+2026-07-11 09:10:00 INFO    Server shutdown

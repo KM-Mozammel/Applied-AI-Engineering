@@ -3,18 +3,21 @@
 01_Introduction
 ============================================================
 Comprehension হলো Python-এর সবচেয়ে শক্তিশালী এবং সুন্দর feature গুলোর একটি। এটি ব্যবহার করে খুব কম কোডে নতুন List, Dictionary, Set অথবা Generator তৈরি করা যায়।
+
 Normal Loop:
+
 result = []
 for i in range(5):
     result.append(i)
 
 List Comprehension:
-result = [i for i in range(5)]
-দুইটার Output একই।
 
-Output: [0, 1, 2, 3, 4]
+result = [i for i in range(5)]
+
+দুইটার Output একই; Output: [0, 1, 2, 3, 4]
 
 Comprehension মূলত Loop + Condition + Expression এক লাইনে লেখার একটি উপায়। Python-এ মোট চার ধরনের comprehension আছে।
+
 1. List Comprehension
 2. Dictionary Comprehension
 3. Set Comprehension
