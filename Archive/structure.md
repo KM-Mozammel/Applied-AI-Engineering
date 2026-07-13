@@ -1,0 +1,10 @@
+01_Theory
+02_Mathematics
+03_PurePython
+04_NumPy/Library
+05_Visualization
+06_MiniProjects
+07_RealProjects
+08_Exercises
+09_InterviewQuestions
+10_AIUsage
