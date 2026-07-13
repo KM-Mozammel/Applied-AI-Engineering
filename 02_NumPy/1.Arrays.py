@@ -9,7 +9,6 @@
 
 # Mental Model: Never think This is a NumPy array. Instead think This is a block of computer memory organized into dimensions. That mindset will make advanced topics like reshaping, broadcasting, tensors, and PyTorch much easier to understand.
 
-
 # Real-life Analogy: Imagine 100 houses.
 
 # Python List:
@@ -31,7 +30,6 @@
 # 107
 
 # Everything is together. Delivering mail becomes much faster. The CPU behaves similarly when reading memory.
-
 
 # Cat Image Actually becomes [[123 120 118] [220 218 219] [ 32  30  29]] Just numbers.
 # An audio file becomes [0.2 0.5 0.7 -0.3 ...] Numbers.

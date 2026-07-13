@@ -48,3 +48,20 @@ Interoperability: NumPy arrays are the foundation for libraries like TensorFlow,
 
 
 # So, NumPy’s magic is that it reduces every kind of real-world data into structured arrays of numbers, making them ready for computation.
+
+
+Introduction to NumPy
+Creating Arrays
+Array Attributes (shape, ndim, dtype, size)
+Indexing & Slicing
+Reshaping & Transpose
+Broadcasting
+Vectorized Operations
+Universal Functions (ufuncs)
+Aggregation Functions
+Boolean Masking & Fancy Indexing
+Random Module
+Joining & Splitting Arrays
+Copy vs View
+Linear Algebra (dot, matmul, inverse, eig, svd)
+Performance Tips (vectorization, memory, timing)

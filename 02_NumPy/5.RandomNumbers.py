@@ -27,7 +27,13 @@ print(matrix)
 #  [0.91 0.27 0.11 0.73]
 #  [0.44 0.98 0.56 0.21]]
 
-# Random Integer: ধরো Dice-এর মতো সংখ্যা চাই। np.random.randint(1,7) Output : 4 কেন 7 নয়? কারণ, np.random.randint(start, stop) এখানে stop Include হয় না। অর্থাৎ, np.random.randint(1,7) মানে 1 2 3 4 5 6
+# Random Integer: ধরো Dice-এর মতো সংখ্যা চাই। 
+np.random.randint(1,7) 
+# Output : 4 কেন 7 নয়? কারণ, 
+np.random.randint(start, stop) 
+# এখানে stop Include হয় না। অর্থাৎ, 
+np.random.randint(1,7) 
+#মানে 1 2 3 4 5 6
 np.random.randint(1,7)
 # Shape: 3 * 4
 
