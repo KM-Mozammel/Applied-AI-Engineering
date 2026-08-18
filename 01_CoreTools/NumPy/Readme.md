@@ -65,3 +65,13 @@ Joining & Splitting Arrays
 Copy vs View
 Linear Algebra (dot, matmul, inverse, eig, svd)
 Performance Tips (vectorization, memory, timing)
+
+
+After finishing the above, create these additional practice files:
+
+Statistics.py
+FileIO.py
+AdvancedLinearAlgebra.py
+KMeans_Numpy.py
+PCA_Numpy.py
+NeuralNetwork_FromScratch.py
